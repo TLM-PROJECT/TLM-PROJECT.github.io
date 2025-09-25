@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "TLM-PROJECT"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Documentos y tutoriales TLM-PROJECT.
+    right: |
+      This site was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: https://tlm-project.github.io/
+  repo-url: https://tlm-project.github.io/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - about.qmd
+    - part: whole-game.qmd
+      chapters:
+        - data-visualize.qmd
+
+format:
+  html:
+    theme:
+      - sandstone
+      - r4ds.scss
+    code-link: true
+    callout-appearance: simple
+
+editor: source
