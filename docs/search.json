@@ -8,5 +8,36 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>TLM-PROJECT.github.io</span>"
     ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "2  About",
+    "section": "",
+    "text": "About this site\n\n1 + 2\n\n[1] 3",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About</span>"
+    ]
+  },
+  {
+    "objectID": "index1.html",
+    "href": "index1.html",
+    "title": "Index1",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1 +1\n\n[1] 3",
+    "crumbs": [
+      "Index1"
+    ]
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "3  About 2",
+    "section": "",
+    "text": "About this site\n\n1 + 2 + 2\n\n[1] 5",
+    "crumbs": [
+      "Index1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>About 2</span>"
+    ]
   }
 ]
