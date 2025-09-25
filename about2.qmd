@@ -1,0 +1,9 @@
+---
+title: "About 2"
+---
+
+About this site
+
+```{r}
+1 + 2 + 2
+```

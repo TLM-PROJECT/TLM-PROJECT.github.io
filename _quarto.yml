@@ -20,9 +20,9 @@ book:
   chapters:
     - index.qmd
     - about.qmd
-    - part: index.qmd
+    - part: index1.qmd
       chapters:
-        - about.qmd
+        - about2.qmd
 
 format:
   html:
