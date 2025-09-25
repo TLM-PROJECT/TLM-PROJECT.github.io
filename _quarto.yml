@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
 
 book:
   title: "TLM-PROJECT"
@@ -20,16 +20,16 @@ book:
   chapters:
     - index.qmd
     - about.qmd
-    - part: whole-game.qmd
+    - part: index.qmd
       chapters:
-        - data-visualize.qmd
+        - about.qmd
 
 format:
   html:
     theme:
       - sandstone
-      - r4ds.scss
+      - cosmo
     code-link: true
     callout-appearance: simple
 
-editor: source
+editor: visual
