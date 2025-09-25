@@ -16,7 +16,6 @@ book:
   site-url: https://tlm-project.github.io/
   repo-url: https://tlm-project.github.io/
   repo-branch: main
-  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - about.qmd

@@ -2,10 +2,6 @@
 title: "TLM-PROJECT.github.io"
 ---
 
-This is a Quarto website.
+Esta página contiene tutoriales y documentos dedicados a la difusión de los resultados del proyecto PID2022-140104OA-I00. "*Desarrollo de metodología basada en necesidades y preferencias de usuarios para cartografiar listas de árboles y proyectar escenarios de gestión forestal bajo cambio climático. (TLM-PROJECT)*"
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Objetivos del proyecto:
