@@ -1,28 +1,29 @@
 project:
-  type: book
+  type: website
   output-dir: docs
+  title: "CMS Phase 3: Seeing the forest for the trees"
 
-book:
-  title: "TLM-PROJECT"
-  reader-mode: true
-
-  page-footer:
-    left: |
-      Documentos y tutoriales TLM-PROJECT.
-    right: |
-      This site was built with <a href="https://quarto.org/">Quarto</a>.
-  cover-image: cover.jpg
-  favicon: cover.jpg
-  site-url: https://tlm-project.github.io/
-  repo-url: https://tlm-project.github.io/
-  repo-branch: main
-  chapters:
-    - index.qmd
-    - about.qmd
-    - part: index1.qmd
-      chapters:
-        - about2.qmd
-
+website:
+  bread-crumbs: false
+  page-footer: 
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/), with theme from [vetiver] (https://github.com/rstudio/vetiver.rstudio.com) and adapted from https://nasa-openscapes.github.io "
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Project overview"
+        contents:
+          - href: index.qmd
+      - section: "Geospatial products"
+        contents:
+          - href: BiasCorrected.qmd
+      - section: "User preferences for the generation of tree lists"
+        contents:
+          - href: SurveyTL.qmd
+      - section: "Demos"
+        contents:
+          - href: Demo1.qmd
+          
 format:
   html:
     theme:
@@ -30,5 +31,8 @@ format:
       - cosmo
     code-link: true
     callout-appearance: simple
+    toc: true
+    toc-title: Contents
+    toc-location: right
 
 editor: visual

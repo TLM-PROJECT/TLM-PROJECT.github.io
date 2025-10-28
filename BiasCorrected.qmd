@@ -1,5 +1,5 @@
 ---
-title: "CMS Phase 3: Seeing the Forest for the Trees"
+title: "Bias-corrected geospatial products for managing western US forests "
 ---
 
 ## Project overview

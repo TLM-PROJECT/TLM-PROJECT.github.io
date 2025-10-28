@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Index1 – TLM-PROJECT</title>
+<title>Bias-corrected geospatial products for managing western US forests – CMS Phase 3: Seeing the forest for the trees</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -65,9 +30,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./about2.html" rel="next">
-<link href="./about.html" rel="prev">
-<link href="./cover.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -78,7 +40,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f5fb064f7279dc0871081858cdc0188f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-12b1f9f9b974ea1ea367f52ef1046d01.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,9 +81,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index1.html">Index1</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Bias-corrected geospatial products for managing western US forests</h1>
+        </a>     
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -131,21 +93,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
       </a>
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">TLM-PROJECT</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://tlm-project.github.io/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-git"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
-</div>
-    </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -154,22 +105,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">TLM-PROJECT.github.io</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">About</span></span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./index1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Index1</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Project overview</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,8 +116,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">About 2</span></span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMS Phase 3: Seeing the Forest for the Trees</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Geospatial products</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BiasCorrected.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Bias-corrected geospatial products for managing western US forests</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">User preferences for the generation of tree lists</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SurveyTL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Survey</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Demos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Demo1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NASA Openscapes Champions Program</span></a>
   </div>
 </li>
       </ul>
@@ -188,15 +178,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project overview</a></li>
+  <li><a href="#geospatial-products" id="toc-geospatial-products" class="nav-link" data-scroll-target="#geospatial-products">Geospatial products:</a></li>
+  <li><a href="#data-use-for-natural-resource-managers" id="toc-data-use-for-natural-resource-managers" class="nav-link" data-scroll-target="#data-use-for-natural-resource-managers">Data use for natural resource managers:</a></li>
+  <li><a href="#data-summary" id="toc-data-summary" class="nav-link" data-scroll-target="#data-summary">Data summary:</a></li>
+  <li><a href="#data-availability" id="toc-data-availability" class="nav-link" data-scroll-target="#data-availability">Data availability:</a></li>
+  <li><a href="#help-us-improve-our-prdducts" id="toc-help-us-improve-our-prdducts" class="nav-link" data-scroll-target="#help-us-improve-our-prdducts">Help us improve our prdducts</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Index1</h1>
+<h1 class="title d-none d-lg-block">Bias-corrected geospatial products for managing western US forests</h1>
 </div>
 
 
@@ -213,16 +214,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span> <span class="sc">+</span><span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project overview</h2>
+<p>The US Forest Service (USFS) and other public and private land managers continue to acquire airborne lidar collections over large swaths of forest in the western US. Our two previous CMS projects (Phases 1 and 2, 2015-2023) cumulatively assembled 9,988 field plots in 604 lidar project areas covering a 1.2M km<sup>2</sup> patchwork of forested land across the western US. Current (Phase 3, 2023-2027) work will continue to assemble and process new project lidar and field plot datasets as they are collected by our expanding assemblage of stakeholders. As more stakeholder data is acquired and contributed, the accuracy and precision of our 30m annual (1985-2025) forest aboveground biomass products should continue to improve. By the same modeling approach (machine learning using Random Forests), we are also mapping other forest attributes at 30m resolution to foster engagement with and use by our stakeholders.</p>
+<p>The final products are bias corrected using independent, design-based National Forest Inventory plot data, from which we can also calculate and report model uncertainty at 30m resolution. New Phase 3 objectives include evaluating whether GEDI and ICESat-2 satellite lidar measurements of canopy height available since 2019 can increase AGB map precision and reduce uncertainty, and if so, ingesting these data into our workflow. Our most novel Phase 3 objective is to disaggregate estimates of biomass and generate tree lists at 30m resolution. Tree lists are the currency of forest planners and managers, who need estimates of both merchantable (i.e., lumber) and non-merchantable (e.g., foliage) biomass components, and tree species and size classes. Tree lists empower managers with this flexibility, not just for carbon management, but also to meet timber, fuel, and wildlife habitat management objectives.</p>
+</section>
+<section id="geospatial-products" class="level2">
+<h2 class="anchored" data-anchor-id="geospatial-products">Geospatial products:</h2>
+<p>We produced various geospatial datasets for managing western US forests. Our methodology included estimating important forest attributes (e.g., aboveground biomass, canopy fuel load) using stakeholder plot data for available lidar data acquisitions. Subsequently, the data were scaled across space and time using Landsat timeseries creating annual wall-to-wall datasets from 1985 to 2020 at 30m spatial resolution. The final products are bias-corrected using independent (i.e., withheld from model building) USFS Forest Inventory and Analysis (FIA) plot data. We also provide 30m uncertainty maps.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BiasCorrectedMaps.jpeg" class="img-fluid figure-img" width="350"></p>
+<figcaption>Example of the 2020 aboveground biomass (Mg/ha) dataset.</figcaption>
+</figure>
 </div>
+</section>
+<section id="data-use-for-natural-resource-managers" class="level2">
+<h2 class="anchored" data-anchor-id="data-use-for-natural-resource-managers">Data use for natural resource managers:</h2>
+<p>This data is valuable for quantifying/baselining/monitoring forest carbon stocks, assessing spatial distribution of fuels, quantifying timber volume across large areas, assessing wildfire risk, investigating wildlife distributions, and other natural resource management applications.</p>
+</section>
+<section id="data-summary" class="level2">
+<h2 class="anchored" data-anchor-id="data-summary">Data summary:</h2>
+<ul>
+<li><p>Timber attributes: basal area, trees per hectare, stand density index, quadratric mean diameter, volume, above ground biomass, etc.</p></li>
+<li><p>Fuel attributes: canopy base height, canopy bulk density, canopy fuel load, etc.</p></li>
+<li><p>Wildlife attributes: snag density, crown competition factor</p></li>
+<li><p>Spatial resolution &amp; extent: 30-m, western USA</p></li>
+<li><p>Temporal resolution &amp; extent: Annual, 1985-2020 (update to present in progress)</p></li>
+<li><p>Precision: R<sup>2</sup>: 0.81, RMSE: 47.3 Mg/ha (e.g., for 2020 ABG; available for other attributes)</p></li>
+</ul>
+</section>
+<section id="data-availability" class="level2">
+<h2 class="anchored" data-anchor-id="data-availability">Data availability:</h2>
+<p>Data are currently available by individual request but will be made permanently available through the ORNL-DAAC and other public data repositories.</p>
+</section>
+<section id="help-us-improve-our-prdducts" class="level2">
+<h2 class="anchored" data-anchor-id="help-us-improve-our-prdducts">Help us improve our prdducts</h2>
+<p>We are conducting a survey to improve our products for a third phase of our project. If you use or produce geospatial data for natural resource management, please take our survey. You can scan the following QR code or directly use this <a href="https://forms.office.com/r/TSx9CYnGnw">Link</a>. Thank you very much for your valuable input.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/QRCode.jpeg" class="img-fluid figure-img"></p>
+<figcaption><code>QR code to access our survey to improve the generation of geospatial products</code></figcaption>
+</figure>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -298,7 +335,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/tlm-project\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -625,29 +662,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./about.html" class="pagination-link" aria-label="About">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">About</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./about2.html" class="pagination-link" aria-label="About 2">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">About 2</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Documentos y tutoriales TLM-PROJECT.</p>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://tlm-project.github.io/edit/main/index1.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://tlm-project.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
-<p>This site was built with <a href="https://quarto.org/">Quarto</a>.</p>
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from [vetiver] (https://github.com/rstudio/vetiver.rstudio.co ) adapted from https://nasa-openscapes.github.io</p>
 </div>
   </div>
 </footer>
