@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  title: "CMS Phase 3: Seeing the forest for the trees"
+  title: " Desarrollo de metodología basada en necesidades y preferencias de usuarios para cartografiar listas de árboles y proyectar escenarios de gestión forestal bajo cambio climático (TLM-PROJECT)"
 
 website:
   bread-crumbs: false
