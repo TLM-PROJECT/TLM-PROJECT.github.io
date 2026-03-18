@@ -1,0 +1,264 @@
+
+
+#### Not for modeling
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_year | year of the LiDAR flight of the block/lot |  |  |  |
+| LIDAR_month | month of the LiDAR flight of the block |  |  |  |
+: **Lidar acquisition variables** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Tot_ret_count | Total number of pixel returns. |  |  |  |
+| LIDAR_Tot_fst_ret | Total number of pixel first returns. |  |  |  |
+: **Return counts** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Perc_fst_ret_abv_thr_2 | Percentage of FIRST returns ABOVE 2 METERS treshold. |  |  |  |
+| LIDAR_Perc_fst_ret_abv_mean_thr_2 | Percentage of FIRST returns above MEAN height. |  |  |  |
+| LIDAR_Perc_all_ret_abv_thr_2 | Percentage of ALL returns ABOVE 2 METERS treshold. |  |  |  |
+| LIDAR_Perc_all_ret_abv_mean_thr_2 | Percentage of ALL returns ABOVE 2 METERS treshold. |  |  |  |
+| LIDAR_Ratio_All_ret_abv_mean_Total_fst_ret_100_thr_2 | Return count ratio: Ratio of number of ALL returns above average over the TOTAL number of first returns, times 100. |  |  |  |
+| LIDAR_Fst_ret_abv_mean_thr_2 | Total number of pixel first returns above the mean ¿height? |  |  |  |
+| LIDAR_Fst_ret_abv_thr_2 | Total number of pixel first returns above the mean ¿height? |  |  |  |
+| LIDAR_All_ret_abv_mean_thr_2 | Total number of all pixel returns above the mean ¿height? |  |  |  |
+| LIDAR_All_ret_abv_thr_2 | Total number of all pixel returns above the mean ¿height? |  |  |  |
+: **Percentages and ratios** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Elv_mean_abv_2 | Mean height of pixel returns ABOVE 2 METERS. |  |  |  |
+| LIDAR_Elv_stddev_abv_2 | standard deviation of pixel return heights ABOVE 2 METERS / standard deviation of height distribution ABOVE 2 METERS. Dispertion measure. |  |  |  |
+| LIDAR_Elv_CV_abv_2 | Coefficient of variation of height distribution of the pixels ABOVE 2 METERS. Represents the standard deviation as a percentage. Dispertion measure. |  |  |  |
+| LIDAR_Elv_qmean_abv_2 | Quadratic mean or root mean square (RMS) height of points ABOVE THE 2 METERS threshold |  |  |  |
+| LIDAR_Elv_cmean_abv_2 | Cubic mean height of points above the ABOVE THE 2 METERS threshold |  |  |  |
+| LIDAR_Elv_skew_abv_2 | Skewness of lidar point heights ABOVE THE 2 METERS threshold |  |  |  |
+| LIDAR_Elv_kurt_abv_2 | Kurtosis of lidar point heights ABOVE THE 2 METERS threshold |  |  |  |
+: **Statistics, pre-filtered 2m Pre-filtered at 0.5 m** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Elv_P05_abv_2 | Percentile 05: Threshold height below which 5% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P25_abv_2 | Percentile 25: Threshold height below which 25% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P50_abv_2 | Percentile 50: Threshold height below which 50% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P75_abv_2 | Percentile 75: Threshold height below which 75% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P90_abv_2 | Percentile 90: Threshold height below which 90% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P95_abv_2 | Percentile 95: Threshold height below which 95% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+| LIDAR_Elv_P99_abv_2 | Percentile 99: Threshold height below which 99% of returns are found. Considers the height profile starting from the 2m line (FAO and Serrada tree height definition). |  |  |  |
+: **Percentiles, pre-filtered 2m** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Elv_mean_abv_0_5 | Mean height of pixel returns ABOVE 0.5 METERS. |  |  |  |
+| LIDAR_Elv_stddev_abv_0_5 | standard deviation of pixel return heights ABOVE 0.5 METERS / standard deviation of height distribution ABOVE 0.5 METERS. Dispertion measure. |  |  |  |
+| LIDAR_Elv_CV_abv_0_5 | Coefficient of variation of height distribution of the pixels ABOVE 0.5 METERS. Represents the standard deviation as a percentage. Dispertion measure. |  |  |  |
+| LIDAR_Elv_qmean_abv_0_5 | Quadratic mean or root mean square (RMS) height of points ABOVE THE 0.5 METERS threshold |  |  |  |
+| LIDAR_Elv_cmean_abv_0_5 | Cubic mean height of points above the ABOVE THE 0.5 METERS threshold |  |  |  |
+| LIDAR_Elv_skew_abv_0_5 | Skewness of lidar point heights ABOVE THE 0.5 METERS threshold |  |  |  |
+| LIDAR_Elv_kurt_abv_0_5 | Kurtosis of lidar point heights ABOVE THE 0.5 METERS threshold |  |  |  |
+| LIDAR_Elv_aad_abv_0_5 | Average Absolute Deviation of lidar point heights ABOVE THE 0.5 METERS threshold from their mean height |  |  |  |
+: **Statistics, pre-filtered with a 0.5m threshold** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Elv_P05_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P25_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P50_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P75_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P90_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P95_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+| LIDAR_Elv_P99_abv_0_5 | Percentile 05: Threshold height below which 5% of returns are found. Considers all the height profile (i.e., starting from 0.5m from the ground, because when starting from zero flight bands appeared giving trouble). |  |  |  |
+: **Percentiles, pre-filtered at 0.5 m** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_fcc_fall_abv_4 | proportion) of ALL returns that are above the ABOVE THE 4 METERS threshold. |  |  |  |
+| LIDAR_fcc_fst_abv_4 | Fraction (or proportion) of FIRST returns that are above the ABOVE THE 4 METERS threshold. |  |  |  |
+| LIDAR_fcc_all_abv_2 | Fraction (or proportion) of ALL returns that are above the ABOVE THE 2 METERS threshold. |  |  |  |
+| LIDAR_fcc_fst_abv_2 | Fraction (or proportion) of FIRST returns that are above the ABOVE THE 2 METERS threshold. |  |  |  |
+| LIDAR_Elv_aad_abv_0_5 | Average Absolute Deviation of lidar point heights ABOVE THE 0.5 METERS threshold from their mean height |  |  |  |
+| LIDAR_fcc_all_abv_0_5 | Fraction (or proportion) of ALL returns that are above the ABOVE THE 0.5 METERS threshold. |  |  |  |
+: **FCC** {tbl-colwidths="[30,40,10,10,10]" .hover .sm }
+
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_All_Elev_strata_below\_\_\_0.5_return_proportion | Proportion (percentage) of ALL returns below 0.5 m. |  |  |  |
+| LIDAR_All_Elev_strata_0.5\_\_\_1_return_proportion | Proportion (percentage) of ALL returns comprised in the 0.5-1 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_1\_\_\_2_return_proportion | Proportion (percentage) of ALL returns comprised in the 1-2 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_2\_\_\_4_return_proportion | Proportion (percentage) of ALL returns comprised in the 2-4 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_4\_\_\_6_return_proportion | Proportion (percentage) of ALL returns comprised in the 4-6 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_6\_\_\_8_return_proportion | Proportion (percentage) of ALL returns comprised in the 6-8 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_8\_\_\_10_return_proportion | Proportion (percentage) of ALL returns comprised in the 8-10 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_10\_\_\_12_return_proportion | Proportion (percentage) of ALL returns comprised in the 10-12 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_12\_\_\_14_return_proportion | Proportion (percentage) of ALL returns comprised in the 12-14 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_14\_\_\_16_return_proportion | Proportion (percentage) of ALL returns comprised in the 14-16 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_16\_\_\_18_return_proportion | Proportion (percentage) of ALL returns comprised in the 16-18 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_18\_\_\_20_return_proportion | Proportion (percentage) of ALL returns comprised in the 18-20 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_20\_\_\_24_return_proportion | Proportion (percentage) of ALL returns comprised in the 20-24m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_24\_\_\_28_return_proportion | Proportion (percentage) of ALL returns comprised in the 24-28 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_28\_\_\_32_return_proportion | Proportion (percentage) of ALL returns comprised in the 28-32 m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_32\_\_\_36_return_proportion | Proportion (percentage) of ALL returns comprised in the 32-36m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_36\_\_\_40_return_proportion | Proportion (percentage) of ALL returns comprised in the 36-40m stratum. |  |  |  |
+| LIDAR_All_Elev_strata_above\_\_\_40_return_proportion | Proportion (percentage) of ALL returns above the 40m stratum. |  |  |  |
+: **Strata All returns** {tbl-colwidths="[40,30,10,10,10]" .hover .sm }
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Fst_Elev_strata_below\_\_\_0.5_return_proportion | Proportion (percentage) of FIRST returns below 0.5 m. |  |  |  |
+| LIDAR_Fst_Elev_strata_0.5\_\_\_1_return_proportion | Proportion (percentage) of FIRST returns comprised in the 0.5-1 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_1\_\_\_2_return_proportion | Proportion (percentage) of FIRST returns comprised in the 1-2 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_2\_\_\_4_return_proportion | Proportion (percentage) of FIRST returns comprised in the 2-4 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_4\_\_\_6_return_proportion | Proportion (percentage) of FIRST returns comprised in the 4-6 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_6\_\_\_8_return_proportion | Proportion (percentage) of FIRST returns comprised in the 6-8 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_8\_\_\_10_return_proportion | Proportion (percentage) of FIRST returns comprised in the 8-10 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_10\_\_\_12_return_proportion | Proportion (percentage) of FIRST returns comprised in the 10-12 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_12\_\_\_14_return_proportion | Proportion (percentage) of FIRST returns comprised in the 12-14 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_14\_\_\_16_return_proportion | Proportion (percentage) of FIRST returns comprised in the 14-16 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_16\_\_\_18_return_proportion | Proportion (percentage) of FIRST returns comprised in the 16-18 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_18\_\_\_20_return_proportion | Proportion (percentage) of FIRST returns comprised in the 18-20 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_20\_\_\_24_return_proportion | Proportion (percentage) of FIRST returns comprised in the 20-24m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_24\_\_\_28_return_proportion | Proportion (percentage) of FIRST returns comprised in the 24-28 m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_28\_\_\_32_return_proportion | Proportion (percentage) of FIRST returns comprised in the 28-32 m stratum.Landsat time series for modeling |  |  |  |
+| LIDAR_Fst_Elev_strata_32\_\_\_36_return_proportion | Proportion (percentage) of FIRST returns comprised in the 32-36m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_36\_\_\_40_return_proportion | Proportion (percentage) of FIRST returns comprised in the 36-40m stratum. |  |  |  |
+| LIDAR_Fst_Elev_strata_above\_\_\_40_return_proportion | Proportion (percentage) of FIRST returns above the 40m stratum. |  |  |  |
+: **Strata first returns** {tbl-colwidths="[40,30,10,10,10]" .hover .sm }
+
+
+| Band-variable name | Description | Reference | Comments | Band number |
+|---------------|---------------|---------------|---------------|---------------|
+| LIDAR_Prof_area | area under the percentile curve standardized to the interval 0-1 |  |  |  |
+| LIDAR_All_ldhi | Lidar Height Density Index of the pixel, considering ALL returns |  |  |  |
+| LIDAR_All_nclasses_lhdi | Number of classes of LIDAR_All_ldhi |  |  |  |
+| LIDAR_Fst_ldhi | Lidar Height Density Index of the pixel, considering FIRST returns | Locally generated. FUSION MANUAL Version 4.40 (McGaughey, 2022); <https://github.com/r-lidar/lidR/wiki/stdmetrics> (Roussel, Jean-Romain) |  |  |
+| LIDAR_Fst_nclasses_lhdi | Number of classes of LIDAR_Fst_nclasses_lhdi | Locally generated. FUSION MANUAL Version 4.40 (McGaughey, 2022); <https://github.com/r-lidar/lidR/wiki/stdmetrics> (Roussel, Jean-Romain) |  |  |
+: **Profile area and ldhi** {tbl-colwidths="[20,40,20,10,10]" .hover .sm }    
+
+
+### Lidar proxies of change    
+
+
+| Band-variable name | Description | Reference | Comments |   |
+|---------------|---------------|---------------|---------------|---------------|
+| TOPO_elevation | A raster DEM in which each pixel contains an elevation value | PNOA |  |  |
+| TOPO_long | Geographical longitude coordinates in decimal format of the EPSG: 4258. Datum: ETRS89-extended. | See topo_indices documentation |  |  |
+| TOPO_lat | Geographical latitude coordinates in decimal format of the EPSG: 4258. Datum: ETRS89-extended. | See topo_indices documentation |  |  |
+| TOPO_slope | Slope represents the steepness of the terrain at a specific location, or the rate of change of elevation for each DEM cell. Could be measured in degrees or radians (dimensionless). In other words, is the difference between the vertical and horizontal distances between two points. In radians. | See topo_indices documentation |  |  |
+| TOPO_aspect | Derives the aspect from each cell of a raster surface. The aspect identifies the compass direction that the downhill slope faces for each location. As aspect is a circular variable, i. e., the minimum value (0º) and the maximum value (360º) represent the same thing (north), a better way of using this information is to transform it into linear variables: for instance northness, eastness or others. CORRECTED AFTER BEING CALCULATED WITH A TISSOT CORRECTION FOR EPSG:3035. In radians. | See topo_indices documentation |  |  |
+| TOPO_TPI | Measure of the topographic position of a pixel relative to its surrounding area. Differences between values of a central point and the average values of its surroundings from a predefined radius. Highly positive values are associated with peaks and ridges, while highly negative values are associated with valley bottoms and sinks. Locations with values approaching zero typically occur on uniform hillslopes or on flat lands (e.g., plateaus). We standardized TPI following $$55$$ to better resolve fine-scale features. THIS IS THE ONE CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_TRI | The Terrain Ruggedness Index is the mean of the absolute differences between the value of a cell and its 8 surrounding cells. CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_TRIriley | According to Riley et al. (2007)) returns the square root of summed squared differences between the value of a cell and its 8 surrounding cells. CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_TRIrmsd | TRIrmsd computes the square root of the mean of the squared differences between these cells. CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_roughness | Roughness is the difference between the maximum and the minimum value of a cell and its 8 surrounding cells. CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_flowdir | flowdir returns the ""flow direction"" (of water), that is the direction of the greatest drop in elevation (or the smallest rise if all neighbors are higher). They are encoded as powers of 2 (0 to 7). CALCULATED BY THE TERRAIN FUNCTION. | See topo_indices documentation |  |  |
+| TOPO_northness | Measure of northwardness, or north-south orientation of a slope or terrain feature. Aspect must be in radians (radian = degree \* pi / 180). Northness will take values close to 1 if the aspect is mostly northward, close to -1 if the aspect is southward, and close to 0 if the aspect is either east or west. Basically is a transformation of the aspect (a non-linear variable converted to linear). | See topo_indices documentation |  |  |
+| TOPO_eastness | Measure of eastwardness, or east-west orientation of a slope or terrain feature. Aspect must be in radians. Eastness behaves similarly, except that values close to 1 represent east-facing slopes. Other approach would be to reclassify aspect into N, S, E and W. | See topo_indices documentation |  |  |
+| TOPO_slope_percentage | Represents the percentage of slope. | See topo_indices documentation |  |  |
+| TOPO_northness_exposure | Represents the interaction between the northness and the slope. Some authors refer to this as northness. However, I prefer this terminology because is neater and is endorsed by the References mentioned in the observations. Moreover, can be defined also as the variation expressed below. | See topo_indices documentation |  |  |
+| TOPO_eastness_exposure | Represents the interaction between the eastness and the slope. | See topo_indices documentation |  |  |
+| TOPO_heatload | The Heat Load Index was proposed by McCune & Keon (2002) and is basically the Potential annual Direct Incident Radiation calibrated with a 'modified folded aspect', which is the aspect rotated a few degrees in NE-SW direction. In other words, modifies the axis rotating it, action that is called by the author 'folding'. By these means, both equations presented above are basically the same but use the 'modified folded aspect' instead the regular folded aspect. In words of the author: To approximate heat load, the equation can be shifted from a maximum on south slopes to a maximum on southwest slopes and a minimum on northeast slopes. This is accomplished by ‘folding’ the aspect about the NE - SW line, such that NE becomes zero degrees and SW becomes 180 degrees. One then applies the identical equation as for direct radiation. While potential direct incident radiation is symmetrical about the north-south axis, temperatures are not, because a slope with afternoon sun will have higher maximum temperatures than an equivalent slope with morning sun. A reasonable approximation to heat load is to make the scale symmetrical about the northeast-southwest. ONLY FOR NORTH HEMISPHERE (due to the orientation assumption and so). This Heat Load (heatload1) is equivalent to the first potential direct radiation equation (potRad1, see paper or topographic indeces table). Dimensionless. | See topo_indices documentation |  |  |
+| TOPO_ttg | The TermoTopoGraphic Index(TTG) is a measure of the sunshine energy reaching a specific spot, considering three site parameters: latitude, terrain aspect and hill slope. In words of the author: ...parámetro que pretende evaluar los conceptos de solana y umbría desde un punto de vista térmico, teniendo en cuenta que las temperaturas máximas no se dan al mediodía, sino a las dos o tres de la tarde... (Gandullo et al, 1997) | See topo_indices documentation |  |  |
+| TOPO_tpi90LANDSAT_delta_ndvi | Measure of the topographic position of a pixel relative to its surrounding area. It is calculated as the difference between the elevation of the pixel and the average elevation of the surrounding area within a 90-meter radius. Theobald found landform types are particularly sensitive to spatial scale. In this line, they calculated TPI for broad regions using only a single neighborhood, with different radius of 200 $$6$$, 500 $$56$$, or 564 m globally $$57$$. So that our analysis would be less sensitive to a particular scale and following $$52$$, we calculated TPIs at multiple scales. In the CLM project, different radios were used. I think to round it according to Landsat spatial resolution. | See topo_indices documentation |  |  |
+| TOPO_tpi300 | Topographic position index in a 300m radius moving window. | See topo_indices documentation |  |  |
+| TOPO_tpi990 | Topographic position index in a 990m radius moving window. | See topo_indices documentation |  |  |
+| TOPO_mtpi | Mean value of tpi90, tpi300 and tpi990. | See topo_indices documentation |  |  |
+| TOPO_chili | Continuous Heat-Insolation Load Index (CHILI): It is a topographic index that measures the amount of heat and insolation that a location receives. CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It's based on the Heat-Load Index proposed by McCune & Keon (2002). According to the author: We modified the original heat-load index $$61$$ in two ways to construct a continuous heat insolation load index (CHILI). First, we modified the formula to explicitly incorporate latitude as a variable so that heat load is calculated on a continuous (latitudinal) basis, assuming insolation at the equinox $$52$$. Second, the original heat-load index is based on a 45° “folding” to mimic patterns of evapotranspiration and measured heat load that increase in the afternoon. We modified the folding to 22.5°, based on more recent empirical studies that found that thermal south ranged from \~10° to 30° west of south over the growing season $$63$$, and mean maximum daily temperatures were reached at \~20°-45° west of south $$64$$. We did not include assumptions that might influence the amount of radiation due to atmospheric conditions (e.g., due to clouds) or other specific assumptions about growing seasons. in Google Earth Engine Data Catalog, this index has a range of values that goes from 0-256 rescaled from the orignial values that goes from 0 to 1. In this Reference says that it is explained in the paper, however, it isn't. Therefore, I have decided to use the downloaded version of this index (GoogleEarthEngine Data Catalog/ ALOS CHILI VERSION) because it's practically impossible to calculate it without making random assumptions or making something up. | See topo_indices documentation |  |  |
+| TOPO_landform | Landforms are generated classifyng each pixel according to its slope, CHILI index value and TPI value. The data set used here was proposed by Theobald et al, and it was downloaded from Google Earth Engine's catalog. All the landforms classifications and tresholds are in Literature_class_intervals column. | See topo_indices documentation |  |  |
+: **Topo metrics** {tbl-colwidths="[15,65,20,10]" .hover .sm }  
+
+
+
+| Band-variable name | Description | Reference | Comments |   |
+|---------------|---------------|---------------|---------------|---------------|
+| CLIMATE_Mean_annual_temperature | Annual Mean Temperature | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Mean_diurnal_range | Mean Diurnal Range (Mean of monthly (max temp - min temp)) | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Isothermality_bio2_over_bio7_100 | Isothermality (BIO2/BIO7) (×100) | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Temperature_seasonality_standard_deviation_100 | Temperature Seasonality (standard deviation ×100) | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Max_temperature_of_warmest_month | Max Temperature of Warmest Month | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Min_temperature_of_coldest_month | Min Temperature of Coldest Month | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Temperature_annual_range_bio5_minus_bio6 | Temperature Annual Range (BIO5-BIO6) | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Mean_temperature_of_the_wettest_quarter | Mean Temperature of Wettest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Mean_temperature_of_driest_quarter | Mean Temperature of Driest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Mean_temperature_of_warmest_quarter |  Mean Temperature of Warmest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Mean_temperature_of_coldest_quarter | Mean Temperature of Coldest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Total_annual_precipitation | Annual Precipitation | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_wettest_month | Precipitation of Wettest Month | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_driest_month | Precipitation of Driest Month | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_seasonality_CV | Precipitation Seasonality (Coefficient of Variation) | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_wettest_quarter | Precipitation of Wettest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_driest_quarter | Precipitation of Driest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_warmest_quarter | Precipitation of Warmest Quarter | <https://www.worldclim.org/> |  |  |
+| CLIMATE_Precipitation_of_coldest_quarter | Precipitation of Coldest Quarter | <https://www.worldclim.org/> |  |  |
+: **Climate variables for modeling** {tbl-colwidths="[45,25,25,5]" .hover .sm }  
+
+
+
+| Band-variable name                  | Description | Reference | Comments |     |
+|-------------------------------------|-------------|-----------|----------|-----|
+|                                     |             |           |          |     |
+| LANDSAT_blue                        |             |           |          |     |
+| LANDSAT_green                       |             |           |          |     |
+| LANDSAT_red                         |             |           |          |     |
+| LANDSAT_nir                         |             |           |          |     |
+| LANDSAT_swir1                       |             |           |          |     |
+| LANDSAT_swir2                       |             |           |          |     |
+| LANDSAT_ndvi                        |             |           |          |     |
+| LANDSAT_nbr                         |             |           |          |     |
+| LANDSAT_evi                         |             |           |          |     |
+| LANDSAT_b5b4r                       |             |           |          |     |
+| LANDSAT_tcb                         |             |           |          |     |
+| LANDSAT_tcg                         |             |           |          |     |
+| LANDSAT_tcw                         |             |           |          |     |
+| LANDSAT_tcw                         |             |           |          |     |
+| LANDSAT_delta_blue                  |             |           |          |     |
+| LANDSAT_delta_green                 |             |           |          |     |
+| LANDSAT_delta_red                   |             |           |          |     |
+| LANDSAT_delta_nir                   |             |           |          |     |
+| LANDSAT_delta_swir1                 |             |           |          |     |
+| LANDSAT_delta_swir2                 |             |           |          |     |
+| LANDSAT_delta_ndvi                  |             |           |          |     |
+| LANDSAT_delta_nbr                   |             |           |          |     |
+| LANDSAT_delta_evi                   |             |           |          |     |
+| LANDSAT_delta_b5b4r                 |             |           |          |     |
+| LANDSAT_delta_tcb                   |             |           |          |     |
+| LANDSAT_delta_tcg                   |             |           |          |     |
+| LANDSAT_delta_tcw                   |             |           |          |     |
+| LANDSAT_lcms_time_since_disturbance |             |           |          |     |
+| LANDSAT_stable                      |             |           |          |     |
+| LANDSAT_slow_loss                   |             |           |          |     |
+| LANDSAT_fast_loss                   |             |           |          |     |
+| LANDSAT_gain                        |             |           |          |     |
+| LANDSAT_last_disturbance            |             |           |          |     |
+: **Landsat time series for modeling.** {.hover .sm }  
+
+
+
+| Band-variable name | Description | Reference | Comments |     |
+|--------------------|-------------|-----------|----------|-----|
+| PHENOLOGY\_        |             |           |          |     |
+: **Phenology metrics** {.hover .sm}  
+
+
+
+| Band-variable name | Description | Reference | Comments |     |
+|--------------------|-------------|-----------|----------|-----|
+| ECOREGIONS_MFE?    |             |           |          |     |
+: **Stratification time series for modeling** {.hover .sm}  
+

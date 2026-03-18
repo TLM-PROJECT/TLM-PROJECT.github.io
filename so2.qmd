@@ -1,0 +1,23 @@
+---
+title: "2. Usuarios finales"
+format: html
+editor: visual
+---
+
+# Preferencias de los usuarios finales (Preferences from end users)
+
+El paquete de trabajo para este objetivo se ha organizado en dos tareas. La primera se ha centrado en contactar con grupos de usuarios finales potenciales y diseñar y entregar un cuestionario para identificar las respuestas más importantes para las aplicaciones de gestión. En la segunda tarea, se han implementado sesiones interactivas para recopilar respuestas a los cuestionarios de AHP y obtener ponderaciones preferenciales para las variables identificadas en la tarea anterior. Estas ponderaciones se han utilizado para crear una métrica de error para las etapas posteriores del proyecto.
+
+## Tarea 2.1. Contacto inicial e identificación de variables y necesidades clave
+
+### Contactar a usuarios potenciales
+
+### Diseñar una sesión interactiva
+
+### Primera sesión interactiva: identificación de las variables de respuesta y necesidades clave
+
+## Tarea 2.2. Caracterización de las preferencias de los usuarios finales
+
+### Identificación de necesidades a partir de las primeras sesiones interactivas y diseño de cuestionarios AHP
+### Segunda sesión interactiva para cuestionarios AHP
+### Obtención de la función de pérdida para las etapas de ajuste del modelo a partir de los resultados de la encuesta AHP.

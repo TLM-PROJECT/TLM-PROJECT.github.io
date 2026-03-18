@@ -1,0 +1,93 @@
+/*-- scss:defaults --*/
+
+$headings-font-weight:  500 !default;
+
+$font-size-root:        0.9rem !default;
+$h1-font-size:          1.7rem !default;
+$h2-font-size:          1.5rem !default;
+$h3-font-size:          1.2rem !default;
+$h4-font-size:          1rem !default;
+$h5-font-size:          1rem !default;
+$toc-font-size:         0.9rem !default;
+
+
+/*-- scss:rules --*/
+h4, h5, h6 {
+  font-weight: bold;  
+}
+
+caption, .table-caption {
+  font-weight: bold;                /* Negrita */
+  color: #2c3e50;                   /* Color personalizado */
+  font-size: 1.2em;                 /* Tamaño */
+  padding-bottom: 10px;             /* Espaciado */
+  text-align: center;               /* Alineación */
+}
+
+a {
+  color: #1f5b83; 
+}
+table thead th {
+  background-color: $primary !important;
+  color: white !important; 
+}
+
+table {
+  padding-bottom: 3rem;             /* Espaciado */ 
+  margin-bottom: 3rem; 
+}
+
+/* Cambiar el color y tamaño de fuente del TOC */
+#TOC {
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* Estilo para el enlace de la sección activa */
+
+#TOC .nav-link.active,
+#TOC .nav-link.active:focus,
+#quarto-margin-sidebar .nav-link.active {
+  color: #1f5b83 !important; /* Cambia este hex por el color que desees */
+  border-left-color: #1f5b83 !important;
+  font-weight: bold !important;
+}
+
+#TOC .nav-link:hover,
+#quarto-margin-sidebar .nav-link:hover {
+  color: #1f5b83 !important; /* El color que desees */
+  #text-decoration: underline; /* Opcional: para confirmar que funciona */
+  opacity: 1 !important;
+}
+
+/* Si quieres que el que ya está activo también cambie al pasar el ratón */
+#TOC .nav-link.active:hover {
+  color: #1f5b83 !important; 
+}
+
+/* Cambiar el título */
+#toc-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-left: 60px;
+  margin-right: 30px;
+}
+
+/*centramos texto caption en las imagenes */
+figcaption, .figure-caption {
+  text-align: center !important;
+  font-size: .8rem;
+}
+
+.sidebar-logo {
+    height: 2in;
+}

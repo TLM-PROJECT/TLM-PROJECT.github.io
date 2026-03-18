@@ -1,36 +1,13 @@
 ---
-title: "TLM-PROJECT"
+title: "Desarrollo de metodología basada en necesidades y preferencias de usuarios para cartografiar listas de árboles y proyectar escenarios de gestión forestal bajo cambio climático"
 ---
 
-## Project overview
+El objetivo principal de la investigación propuesta es desarrollar una metodología novedosa y replicable que combine:
 
-## Geospatial products:
+1.  Información auxiliar de sensores remotos y conjuntos de datos climáticos y topográficos;
 
-We produced various geospatial datasets for managing western US forests. Our methodology 
+2.  Observaciones terrestres sistemáticas del SNFI;
 
-## Data use for natural resource managers:
+3.  Y caracterizaciones cuantitativas de las necesidades y preferencias de los usuarios finales, para desarrollar modelos predictivos para el mapeo de listas de árboles.
 
-This data is valuable for quantifying/baselining/monitoring forest carbon stocks, assessing spatial distribution of fuels, quantifying timber volume across large areas, assessing wildfire risk, investigating wildlife distributions, and other natural resource management applications.
-
-## Data summary:
-
--   Timber attributes: basal area, trees per hectare, stand density index, quadratric mean diameter, volume, above ground biomass, etc.
-
--   Fuel attributes: canopy base height, canopy bulk density, canopy fuel load, etc.
-
--   Wildlife attributes: snag density, crown competition factor
-
--   Spatial resolution & extent: 30-m, western USA
-
--   Temporal resolution & extent: Annual, 1985-2020 (update to present in progress)
-
--   Precision: R^2^: 0.81, RMSE: 47.3 Mg/ha (e.g., for 2020 ABG; available for other attributes)
-
-## Data availability:
-
-Data are currently available by individual request but will be made permanently available through the ORNL-DAAC and other public data repositories.
-
-## Help us improve our prdducts
-
-We are conducting a survey to improve our products for a third phase of our project. If you use or produce geospatial data for natural resource management, please take our survey. You can scan the following QR code or directly use this [Link](https://forms.office.com/r/TSx9CYnGnw). Thank you very much for your valuable input.
-
+Para lograr este objetivo general, estructuramos la investigación en torno a seis objetivos específicos, cada uno con un paquete de trabajo asociado.

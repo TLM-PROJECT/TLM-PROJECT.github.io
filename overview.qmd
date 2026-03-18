@@ -1,0 +1,21 @@
+---
+title: "Contexto"
+format: html
+editor: visual
+---
+
+La investigación se centra en unas áreas forestales identificadas dominadas por *Pinus sylvestris L., Fagus sylvatica L., Pinus halepensis Mill. 1768 o Pinus pinaster Ait.*, 1789, en el Mapa Forestal Español (MFS), en las provincias de Segovia, Burgos, Soria, La Rioja, Navarra, Zaragoza, Teruel, Guadalajara y Madrid. El área de estudio abarca 1,38 Mha de tipos forestales monoespecíficos y mixtos.
+
+![](images/Captura%20de%20pantalla_20260305_105455-01.png){fig-align="center" width="50%"}
+
+Definiciones alternativas del área de estudio basadas en límites naturales podrían ser más atractivas para controlar posibles factores de confusión de carácter ecológico. Sin embargo, basamos nuestra definición del área de estudio en límites administrativos porque permite un mejor control de:
+
+1.  La falta de sincronización entre las recopilaciones de datos lidar y las mediciones de campo de SNFI4
+
+2.  Las diferencias en las especificaciones lidar.
+
+La recopilación de datos de SNFI se organiza temporalmente por provincias y las recopilaciones de datos lidar de PNOA se organizan en bloques o adquisiciones coordinadas por las Comunidades Autónomas. Dentro de ciertos límites, estos bloques pueden tener diferentes especificaciones (es decir, sensores o densidades de puntos). Sin embargo, su tamaño es suficiente para garantizar que las provincias solo estén cubiertas por muy pocos bloques (normalmente uno o dos). Considerando que nuestro objetivo es desarrollar una metodología replicable que pueda aplicarse en áreas más extensas, concluimos que una definición del área de estudio basada en múltiples provincias era la mejor manera de controlar y evaluar factores críticos relacionados con la variabilidad en la adquisición de datos lidar y las fechas de recolección de datos terrestres.
+
+![](images/Captura%20de%20pantalla_20260305_105531.png){fig-align="center" width="90%"}
+
+Figura 2. Diagrama de flujo del proyecto. Recuadros naranjas con borde rojo: resultados más importantes del proyecto. Los objetivos específicos se representan mediante áreas con diferentes colores de fondo.

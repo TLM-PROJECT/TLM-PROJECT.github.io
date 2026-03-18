@@ -1,0 +1,48 @@
+---
+title: "3.Predicción"
+format: html
+editor: visual
+---
+
+# Predicción de la lista de árboles (Models for tree list prediction)
+
+Este paquete de trabajo se centra en el ajuste de modelos e incluye tres tareas. La primera se centra en el preprocesamiento de la información auxiliar disponible (es decir, conjuntos de datos RS y otras variables auxiliares) y los datos del SNFI, y en la generación de una estratificación completa. La segunda y la tercera tarea se centran, respectivamente, en el ajuste de modelos mediante k-NN y CNN, y en la comparación de resultados.
+
+## Tarea 3.1. Pre-procesamiento de datos terrestres y variables auxiliares de teledetección
+
+Nuestra base de datos de información auxiliar se basa en conjuntos de datos LIDAR de series temporales de PNOA, Landsat y Sentinel 2, métricas climáticas e índices topográficos.
+
+-   Datos terrestres
+
+-   Datos LIDAR
+
+-   Series temporales Landsat
+
+-   Sentinel-2 mensual
+
+-   Métricas topográficas
+
+-   Datos climáticos
+
+-   Estratificación
+
+### Métricas
+
+{{< include data/metricas.qmd >}}
+
+## Tarea 3.2. Desarrollo de modelos de imputación k-NN
+
+### Ajuste del modelo
+
+### Validación
+
+## Tarea 3.3. Desarrollo de modelos CNN y comparación con modelos k-NN
+
+### Modelado de CNN
+
+### Validación
+
+### Comparaciones
+
+### Redacción del manuscrito
+

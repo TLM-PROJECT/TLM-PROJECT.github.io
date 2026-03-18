@@ -1,38 +1,46 @@
 project:
   type: website
-  output-dir: docs
-  title: " Desarrollo de metodología basada en necesidades y preferencias de usuarios para cartografiar listas de árboles y proyectar escenarios de gestión forestal bajo cambio climático (TLM-PROJECT)"
+  output-dir: web
 
 website:
-  bread-crumbs: false
-  page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/), with theme from [vetiver] (https://github.com/rstudio/vetiver.rstudio.com) and adapted from https://nasa-openscapes.github.io "
+  title: "TLM_PROJECT"
+  favicon: images/clipboard-3772666577.png
   sidebar:
+    logo: images/clipboard-3772666577.png
     style: "docked"
-    search: true
+    search: true            # Añade un buscador automático
     contents:
-      - section: "Project overview"
+      - href: index.qmd    # <--- Este será el enlace de inicio
+        text: "Introducción"
+      - section: "Descripción general"
         contents:
-          - href: index.qmd
-      - section: "Geospatial products"
+          - overview.qmd
+      - section: "Objetivos"
         contents:
-          - href: BiasCorrected.qmd
-      - section: "User preferences for the generation of tree lists"
-        contents:
-          - href: SurveyTL.qmd
-      - section: "Demos"
-        contents:
-          - href: Demo1.qmd
-          
+          - so1.qmd
+          - so2.qmd
+          - so3.qmd
+          - so4.qmd
+          - so5.qmd
+          - so6.qmd
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Contexto"
+        href: overview.qmd
+    right:
+      - icon: github
+        href: https://github.com/TLM-PROJECT/TLM-PROJECT.github.io.git
+        aria-label: GitHub
+        target: _blank
 format:
   html:
-    theme:
-      - sandstone
-      - cosmo
-    code-link: true
-    callout-appearance: simple
+    theme: 
+      - flatly
+      - custom.scss
     toc: true
-    toc-title: Contents
-    toc-location: right
-
-editor: visual
+    toc-title: "En esta sección:" 
+    toc-location: right      # El TOC de la página va a la derecha
+    toc-depth: 6
+    #number-sections: true

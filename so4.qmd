@@ -1,0 +1,23 @@
+---
+title: "4. Validación rodal"
+format: html
+editor: visual
+---
+
+# Validación a nivel de rodal (Stand-level validation)
+
+En este paquete de trabajo, analizamos en qué medida las listas de árboles previstas satisfacen las necesidades de los usuarios finales al agregarse espacialmente a unidades espaciales significativas para los gestores forestales. En la primera tarea de este paquete de trabajo, compilaremos una base de datos a partir de inventarios forestales para que los PMF obtengan listas de árboles a nivel de rodal basadas en información de campo. Paralelamente, se amplían nuestras predicciones a la misma escala. En la segunda tarea, comparamos las listas de árboles a nivel de rodal obtenidas de observaciones de campo con las de nuestros modelos.
+
+## Tarea 4.1. Compilar datos de los PMF y generar listas de árboles a nivel de rodal a partir de modelos k-NN y CNN.
+
+### Recopilar datos de inventarios para el FMP
+
+### Mapear listas de árboles utilizando k-NN y CNN y ampliarlas a escalas de rodal
+
+## Tarea 4.2. Comparar las listas de árboles observadas y previstas a nivel de rodal
+
+### Comparar las listas de árboles observadas y previstas a nivel de rodal
+
+### Analizar las incertidumbres y la posibilidad de calibración
+
+### Identificar las posibles limitaciones de las listas de árboles previstas para satisfacer las necesidades de los usuarios finales

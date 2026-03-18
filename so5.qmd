@@ -1,0 +1,19 @@
+---
+title: "5. Validación proyecciones"
+format: html
+editor: visual
+---
+
+# Validación de proyecciones (Validation of projections)
+
+Nuestros modelos aprenderán a predecir la realidad de sus datos de entrenamiento y proporcionarán una representación del estado del bosque en la fecha de recolección de datos del SNFI. Esta representación estará sujeta a errores que se propagarán si las listas de árboles predichas se utilizan como entrada en DI-CS-TLGM. Además, los propios DI-CS-TLGM también están sujetos a errores. En este paquete de trabajo, implementamos los pasos necesarios para evaluar las incertidumbres que surgen al utilizar nuestras listas de árboles predichas como entrada en el DI-CS-TLGM disponible. Realizamos esta evaluación tanto para listas de árboles a nivel de parcela/píxel como para listas de árboles a nivel de rodal. Comparamos las proyecciones realizadas con dos o tres modelos DI-CS-TLGM, según la especie. Los modelos que se analizarán son los siguientes: DI-CS-TLGM: modelos de Trasobares et al. (2022), modelos basados ​​en procesos implementados en Medfate (De Cáceres et al. 2022) y modelos implementados en SIMANFOR como IBERO-PS e IBERO-PT (Bravo et al. 2012).
+
+## Tarea 5.1. Proyección de listas de árboles con diferentes DI-CS-TLGM
+
+### Listas de árboles imputadas del Proyecto SNFI3.
+
+### Proyecto de árboles a nivel de rodal predichos en áreas con datos de los PMF.
+
+## Tarea 5.2. Comparación con datos de inventarios recientes de los PMF
+
+### Validación de las proyecciones de las listas de árboles predichas.
