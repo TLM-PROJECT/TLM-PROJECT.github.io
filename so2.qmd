@@ -19,5 +19,7 @@ El paquete de trabajo para este objetivo se ha organizado en dos tareas. La prim
 ## Tarea 2.2. Caracterización de las preferencias de los usuarios finales
 
 ### Identificación de necesidades a partir de las primeras sesiones interactivas y diseño de cuestionarios AHP
+
 ### Segunda sesión interactiva para cuestionarios AHP
+
 ### Obtención de la función de pérdida para las etapas de ajuste del modelo a partir de los resultados de la encuesta AHP.

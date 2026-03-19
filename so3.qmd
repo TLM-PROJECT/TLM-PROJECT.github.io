@@ -1,5 +1,5 @@
 ---
-title: "3.Predicción"
+title: "3. Predicción"
 format: html
 editor: visual
 ---
@@ -45,4 +45,3 @@ Nuestra base de datos de información auxiliar se basa en conjuntos de datos LID
 ### Comparaciones
 
 ### Redacción del manuscrito
-

@@ -41,6 +41,9 @@ puntos <- sf::st_read("Y:/1_TLS_DRON/data/buffer_12m_centros.shp")
 st_crs(puntos) <- 25830 
 puntos_centroides <- st_centroid(puntos)
 provincias_utm <- mapSpain::esp_get_prov() %>% st_transform(25830)
+provs <- c("Palencia", "Burgos", "Soria", "Guadalajara", "Zaragoza", "Huesca", "Navarra", "La Rioja")
+provincias_estudio <- provincias_utm[provincias_utm$prov.shortname.es %in% provs, ]
+#provincias_estudio <- provincias_utm[provincias_utm$nuts2.name == "Aragon", ]
 
 ```
 
@@ -50,11 +53,23 @@ provincias_utm <- mapSpain::esp_get_prov() %>% st_transform(25830)
 #| error: false
 #| label: mapa
 
+library(patchwork) # Para combinar mapas
 
-ggplot() +
+mapa_referencia <- ggplot() +
+  geom_sf(data = provincias_utm, fill = NA, color = "grey60", size = 0.3) + 
+  geom_sf(data = provincias_estudio, fill = "red", alpha = 0.5, color = "red") +
+  #coord_sf(xlim = c(-15, 10), ylim = c(34, 55)) + # Zoom a la zona
+  theme_void() + # Sin ejes ni fondo
+  theme(
+    panel.background = element_rect(fill = "white", color = "black"),
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 1)
+  )
+
+mapa_principal <- ggplot() +
   # Añadir mapa base de OSM
   #annotation_map_tile(type = "cartolight", zoomin = 2) +
-  geom_sf(data = provincias_utm, fill = NA, color = "grey60", size = 0.2) + # Límites provincias
+  geom_sf(data = provincias_estudio, fill = NA, color = "grey60", size = 0.4) + # Límites provincias
+  geom_sf_text (data = provincias_estudio, aes(label=ine.prov.name)) +
   # Añadir los puntos del shapefile
   geom_sf(
       data = puntos_centroides, 
@@ -76,6 +91,13 @@ ggplot() +
   labs(title = "Distribución de las parcelas",
        x = NULL,
        y = NULL)
+
+mapa_principal + 
+  inset_element(mapa_referencia, 
+                left = 0.70,   # Empieza pasando la mitad (60%)
+                bottom = 0.0, # Pegado al borde inferior
+                right = 1.0,  # Termina en el borde derecho
+                top = 0.30)    # Sube hasta el 40% de la altura
 ```
 
 ### Uso de escaner láser terrestre (TLS)

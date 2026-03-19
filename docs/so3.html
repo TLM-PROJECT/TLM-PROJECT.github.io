@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3.Predicción – TLM_PROJECT</title>
+<title>3. Predicción – TLM_PROJECT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -144,7 +115,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./so1.html">Objetivos</a></li><li class="breadcrumb-item"><a href="./so3.html">3.Predicción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./so1.html">Objetivos</a></li><li class="breadcrumb-item"><a href="./so3.html">3. Predicción</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -216,7 +187,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./so3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">3.Predicción</span></a>
+ <span class="menu-text">3. Predicción</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -256,8 +227,8 @@ window.Quarto = {
   <li><a href="#métricas" id="toc-métricas" class="nav-link" data-scroll-target="#métricas">Métricas</a>
   <ul>
   <li><a href="#not-for-modeling" id="toc-not-for-modeling" class="nav-link" data-scroll-target="#not-for-modeling">Not for modeling</a></li>
-  </ul></li>
   <li><a href="#lidar-proxies-of-change" id="toc-lidar-proxies-of-change" class="nav-link" data-scroll-target="#lidar-proxies-of-change">Lidar proxies of change</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#tarea-3.2.-desarrollo-de-modelos-de-imputación-k-nn" id="toc-tarea-3.2.-desarrollo-de-modelos-de-imputación-k-nn" class="nav-link" data-scroll-target="#tarea-3.2.-desarrollo-de-modelos-de-imputación-k-nn">Tarea 3.2. Desarrollo de modelos de imputación k-NN</a>
   <ul>
@@ -278,9 +249,9 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./so1.html">Objetivos</a></li><li class="breadcrumb-item"><a href="./so3.html">3.Predicción</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./so1.html">Objetivos</a></li><li class="breadcrumb-item"><a href="./so3.html">3. Predicción</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">3.Predicción</h1>
+<h1 class="title">3. Predicción</h1>
 </div>
 
 
@@ -1171,9 +1142,8 @@ window.Quarto = {
 </tbody>
 </table>
 </section>
-</section>
-<section id="lidar-proxies-of-change" class="level3">
-<h3 class="anchored" data-anchor-id="lidar-proxies-of-change">Lidar proxies of change</h3>
+<section id="lidar-proxies-of-change" class="level4">
+<h4 class="anchored" data-anchor-id="lidar-proxies-of-change">Lidar proxies of change</h4>
 <table class="table-hover table-sm small caption-top table">
 <caption><strong>Topo metrics</strong></caption>
 <colgroup>
@@ -1230,7 +1200,7 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>TOPO_TPI</td>
-<td>Measure of the topographic position of a pixel relative to its surrounding area. Differences between values of a central point and the average values of its surroundings from a predefined radius. Highly positive values are associated with peaks and ridges, while highly negative values are associated with valley bottoms and sinks. Locations with values approaching zero typically occur on uniform hillslopes or on flat lands (e.g., plateaus). We standardized TPI following <span class="math display">\[55\]</span> to better resolve fine-scale features. THIS IS THE ONE CALCULATED BY THE TERRAIN FUNCTION.</td>
+<td>Measure of the topographic position of a pixel relative to its surrounding area. Differences between values of a central point and the average values of its surroundings from a predefined radius. Highly positive values are associated with peaks and ridges, while highly negative values are associated with valley bottoms and sinks. Locations with values approaching zero typically occur on uniform hillslopes or on flat lands (e.g., plateaus). We standardized TPI following [55] to better resolve fine-scale features. THIS IS THE ONE CALCULATED BY THE TERRAIN FUNCTION.</td>
 <td>See topo_indices documentation</td>
 <td></td>
 <td></td>
@@ -1321,7 +1291,7 @@ window.Quarto = {
 </tr>
 <tr class="odd">
 <td>TOPO_tpi90LANDSAT_delta_ndvi</td>
-<td>Measure of the topographic position of a pixel relative to its surrounding area. It is calculated as the difference between the elevation of the pixel and the average elevation of the surrounding area within a 90-meter radius. Theobald found landform types are particularly sensitive to spatial scale. In this line, they calculated TPI for broad regions using only a single neighborhood, with different radius of 200 <span class="math display">\[6\]</span>, 500 <span class="math display">\[56\]</span>, or 564 m globally <span class="math display">\[57\]</span>. So that our analysis would be less sensitive to a particular scale and following <span class="math display">\[52\]</span>, we calculated TPIs at multiple scales. In the CLM project, different radios were used. I think to round it according to Landsat spatial resolution.</td>
+<td>Measure of the topographic position of a pixel relative to its surrounding area. It is calculated as the difference between the elevation of the pixel and the average elevation of the surrounding area within a 90-meter radius. Theobald found landform types are particularly sensitive to spatial scale. In this line, they calculated TPI for broad regions using only a single neighborhood, with different radius of 200 [6], 500 [56], or 564 m globally [57]. So that our analysis would be less sensitive to a particular scale and following [52], we calculated TPIs at multiple scales. In the CLM project, different radios were used. I think to round it according to Landsat spatial resolution.</td>
 <td>See topo_indices documentation</td>
 <td></td>
 <td></td>
@@ -1349,7 +1319,7 @@ window.Quarto = {
 </tr>
 <tr class="odd">
 <td>TOPO_chili</td>
-<td>Continuous Heat-Insolation Load Index (CHILI): It is a topographic index that measures the amount of heat and insolation that a location receives. CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It’s based on the Heat-Load Index proposed by McCune &amp; Keon (2002). According to the author: We modified the original heat-load index <span class="math display">\[61\]</span> in two ways to construct a continuous heat insolation load index (CHILI). First, we modified the formula to explicitly incorporate latitude as a variable so that heat load is calculated on a continuous (latitudinal) basis, assuming insolation at the equinox <span class="math display">\[52\]</span>. Second, the original heat-load index is based on a 45° “folding” to mimic patterns of evapotranspiration and measured heat load that increase in the afternoon. We modified the folding to 22.5°, based on more recent empirical studies that found that thermal south ranged from ~10° to 30° west of south over the growing season <span class="math display">\[63\]</span>, and mean maximum daily temperatures were reached at ~20°-45° west of south <span class="math display">\[64\]</span>. We did not include assumptions that might influence the amount of radiation due to atmospheric conditions (e.g., due to clouds) or other specific assumptions about growing seasons. in Google Earth Engine Data Catalog, this index has a range of values that goes from 0-256 rescaled from the orignial values that goes from 0 to 1. In this Reference says that it is explained in the paper, however, it isn’t. Therefore, I have decided to use the downloaded version of this index (GoogleEarthEngine Data Catalog/ ALOS CHILI VERSION) because it’s practically impossible to calculate it without making random assumptions or making something up.</td>
+<td>Continuous Heat-Insolation Load Index (CHILI): It is a topographic index that measures the amount of heat and insolation that a location receives. CHILI is a surrogate for effects of insolation and topographic shading on evapotranspiration represented by calculating insolation at early afternoon, sun altitude equivalent to equinox. It’s based on the Heat-Load Index proposed by McCune &amp; Keon (2002). According to the author: We modified the original heat-load index [61] in two ways to construct a continuous heat insolation load index (CHILI). First, we modified the formula to explicitly incorporate latitude as a variable so that heat load is calculated on a continuous (latitudinal) basis, assuming insolation at the equinox [52]. Second, the original heat-load index is based on a 45° “folding” to mimic patterns of evapotranspiration and measured heat load that increase in the afternoon. We modified the folding to 22.5°, based on more recent empirical studies that found that thermal south ranged from ~10° to 30° west of south over the growing season [63], and mean maximum daily temperatures were reached at ~20°-45° west of south [64]. We did not include assumptions that might influence the amount of radiation due to atmospheric conditions (e.g., due to clouds) or other specific assumptions about growing seasons. in Google Earth Engine Data Catalog, this index has a range of values that goes from 0-256 rescaled from the orignial values that goes from 0 to 1. In this Reference says that it is explained in the paper, however, it isn’t. Therefore, I have decided to use the downloaded version of this index (GoogleEarthEngine Data Catalog/ ALOS CHILI VERSION) because it’s practically impossible to calculate it without making random assumptions or making something up.</td>
 <td>See topo_indices documentation</td>
 <td></td>
 <td></td>
@@ -1818,6 +1788,7 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
+</section>
 </section>
 </section>
 <section id="tarea-3.2.-desarrollo-de-modelos-de-imputación-k-nn" class="level2">
