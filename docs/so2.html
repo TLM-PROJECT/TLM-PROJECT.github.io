@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -222,12 +225,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#preferencias-de-los-usuarios-finales-preferences-from-end-users" id="toc-preferencias-de-los-usuarios-finales-preferences-from-end-users" class="nav-link active" data-scroll-target="#preferencias-de-los-usuarios-finales-preferences-from-end-users">Preferencias de los usuarios finales (Preferences from end users)</a>
   <ul>
-  <li><a href="#tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave" id="toc-tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave" class="nav-link" data-scroll-target="#tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave">Tarea 2.1. Contacto inicial e identificación de variables y necesidades clave</a>
-  <ul>
-  <li><a href="#contactar-a-usuarios-potenciales" id="toc-contactar-a-usuarios-potenciales" class="nav-link" data-scroll-target="#contactar-a-usuarios-potenciales">Contactar a usuarios potenciales</a></li>
-  <li><a href="#diseñar-una-sesión-interactiva" id="toc-diseñar-una-sesión-interactiva" class="nav-link" data-scroll-target="#diseñar-una-sesión-interactiva">Diseñar una sesión interactiva</a></li>
-  <li><a href="#primera-sesión-interactiva-identificación-de-las-variables-de-respuesta-y-necesidades-clave" id="toc-primera-sesión-interactiva-identificación-de-las-variables-de-respuesta-y-necesidades-clave" class="nav-link" data-scroll-target="#primera-sesión-interactiva-identificación-de-las-variables-de-respuesta-y-necesidades-clave">Primera sesión interactiva: identificación de las variables de respuesta y necesidades clave</a></li>
-  </ul></li>
+  <li><a href="#tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave" id="toc-tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave" class="nav-link" data-scroll-target="#tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave">Tarea 2.1. Contacto inicial e identificación de variables y necesidades clave</a></li>
   <li><a href="#tarea-2.2.-caracterización-de-las-preferencias-de-los-usuarios-finales" id="toc-tarea-2.2.-caracterización-de-las-preferencias-de-los-usuarios-finales" class="nav-link" data-scroll-target="#tarea-2.2.-caracterización-de-las-preferencias-de-los-usuarios-finales">Tarea 2.2. Caracterización de las preferencias de los usuarios finales</a>
   <ul>
   <li><a href="#identificación-de-necesidades-a-partir-de-las-primeras-sesiones-interactivas-y-diseño-de-cuestionarios-ahp" id="toc-identificación-de-necesidades-a-partir-de-las-primeras-sesiones-interactivas-y-diseño-de-cuestionarios-ahp" class="nav-link" data-scroll-target="#identificación-de-necesidades-a-partir-de-las-primeras-sesiones-interactivas-y-diseño-de-cuestionarios-ahp">Identificación de necesidades a partir de las primeras sesiones interactivas y diseño de cuestionarios AHP</a></li>
@@ -265,26 +263,74 @@ ul.task-list li input[type="checkbox"] {
 <p>El paquete de trabajo para este objetivo se ha organizado en dos tareas. La primera se ha centrado en contactar con grupos de usuarios finales potenciales y diseñar y entregar un cuestionario para identificar las respuestas más importantes para las aplicaciones de gestión. En la segunda tarea, se han implementado sesiones interactivas para recopilar respuestas a los cuestionarios de AHP y obtener ponderaciones preferenciales para las variables identificadas en la tarea anterior. Estas ponderaciones se han utilizado para crear una métrica de error para las etapas posteriores del proyecto.</p>
 <section id="tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave" class="level2">
 <h2 class="anchored" data-anchor-id="tarea-2.1.-contacto-inicial-e-identificación-de-variables-y-necesidades-clave">Tarea 2.1. Contacto inicial e identificación de variables y necesidades clave</h2>
-<section id="contactar-a-usuarios-potenciales" class="level3">
-<h3 class="anchored" data-anchor-id="contactar-a-usuarios-potenciales">Contactar a usuarios potenciales</h3>
-</section>
-<section id="diseñar-una-sesión-interactiva" class="level3">
-<h3 class="anchored" data-anchor-id="diseñar-una-sesión-interactiva">Diseñar una sesión interactiva</h3>
-</section>
-<section id="primera-sesión-interactiva-identificación-de-las-variables-de-respuesta-y-necesidades-clave" class="level3">
-<h3 class="anchored" data-anchor-id="primera-sesión-interactiva-identificación-de-las-variables-de-respuesta-y-necesidades-clave">Primera sesión interactiva: identificación de las variables de respuesta y necesidades clave</h3>
-</section>
+<p>Se ha contactado con un total de – usuarios potenciales provenientes de cinco grupos diferentes:</p>
+<ol type="1">
+<li><p>Gestores forestales de la administración pública</p></li>
+<li><p>Propietarios privados de terrenos forestales</p></li>
+<li><p>Personal de extinción de incendios</p></li>
+<li><p>Científicos de diversas universidades y centros de investigación</p></li>
+<li><p>Profesionales de empresas privadas del sector.</p></li>
+</ol>
+<p>Se ha trabajado con ellos en dos sesiones interactivas. En la primera sesión se han obtenido de los usuarios las variables que facilitarían su trabajo, verificando que: 1) se pueden calcular utilizando datos de los gráficos SNFI y 2) si están disponibles en formato de mapa.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+config:
+  theme: forest
+  look: handDrawn 
+  themeVariables:
+    font-size: 10px 
+    lineColor: '#F8B229'
+    secondaryColor: '#006100'
+    tertiaryColor: '#fff'
+---
+graph TD
+  B[Campos de aplicación]
+  
+  B --&gt; C[**Selvicultura**] 
+  B --&gt; D[**Incendios**]
+  B --&gt; E[**Biodiversidad**]
+  
+  C --&gt; C1[Área Basimétrica 
+  Altura dominante 
+  Volumen 
+  Densidad 
+  ]
+  D --&gt; D1[Modelo de Combustible de Superficie 
+  Altura de la Base del Estrato de Copas 
+  Altura del Estrato de Copas 
+  Densidad de combustible 
+  Carga de combustible de copas 
+  Cantidad de horjarasca en suelo 
+  ]
+  style D1 font-size: 11px
+  E --&gt; E1[Diversidad estructural
+  Diversidad taxonómica
+  Diversidad funcional 
+  ]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>En la segunda sesión,se han utilizado estas variables para realizar encuestas AHP, con el fin de obtener información sobre las necesidades y cuantificar las preferencias de los gestores forestales y otros usuarios finales.</p>
 </section>
 <section id="tarea-2.2.-caracterización-de-las-preferencias-de-los-usuarios-finales" class="level2">
 <h2 class="anchored" data-anchor-id="tarea-2.2.-caracterización-de-las-preferencias-de-los-usuarios-finales">Tarea 2.2. Caracterización de las preferencias de los usuarios finales</h2>
 <section id="identificación-de-necesidades-a-partir-de-las-primeras-sesiones-interactivas-y-diseño-de-cuestionarios-ahp" class="level3">
 <h3 class="anchored" data-anchor-id="identificación-de-necesidades-a-partir-de-las-primeras-sesiones-interactivas-y-diseño-de-cuestionarios-ahp">Identificación de necesidades a partir de las primeras sesiones interactivas y diseño de cuestionarios AHP</h3>
+<p>“Los microdatos de estas encuestas se depositarán en la base de datos ARCES del Centro de Investigaciones Sociológicas (CIS), como máximo, 12 meses después de la finalización del proyecto.”</p>
 </section>
 <section id="segunda-sesión-interactiva-para-cuestionarios-ahp" class="level3">
 <h3 class="anchored" data-anchor-id="segunda-sesión-interactiva-para-cuestionarios-ahp">Segunda sesión interactiva para cuestionarios AHP</h3>
 </section>
 <section id="obtención-de-la-función-de-pérdida-para-las-etapas-de-ajuste-del-modelo-a-partir-de-los-resultados-de-la-encuesta-ahp." class="level3">
 <h3 class="anchored" data-anchor-id="obtención-de-la-función-de-pérdida-para-las-etapas-de-ajuste-del-modelo-a-partir-de-los-resultados-de-la-encuesta-ahp.">Obtención de la función de pérdida para las etapas de ajuste del modelo a partir de los resultados de la encuesta AHP.</h3>
+<p>Las respuestas al AHP se han utilizado para derivar ponderaciones de preferencia para las variables de cada usuario. Las ponderaciones de preferencia se promedian dentro de los grupos y tanto las preferencias individuales de los usuarios como las grupales se analizan mediante técnicas de agrupamiento.</p>
 
 
 </section>

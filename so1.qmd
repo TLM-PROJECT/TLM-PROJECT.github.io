@@ -37,7 +37,7 @@ En total se han estudiado 68 parcelas con un radio de 17 metros cada una, en sei
 # Cargar librerías necesarias
 pacman::p_load(sf, ggplot2, ggspatial, prettymapr, mapSpain, raster)
 
-puntos <- sf::st_read("Y:/1_TLS_DRON/data/buffer_12m_centros.shp")
+puntos <- sf::st_read("//157.88.237.17/tlm_project2/1_TLS_DRON/data/buffer_12m_centros.shp")
 st_crs(puntos) <- 25830 
 puntos_centroides <- st_centroid(puntos)
 provincias_utm <- mapSpain::esp_get_prov() %>% st_transform(25830)
